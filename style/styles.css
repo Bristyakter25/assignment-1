@@ -4,15 +4,26 @@
   
   font-style: normal;
 }
+
 .banner-content{
   background-image: url('/img.jpg/Hero-bg.png');
   background-size: 1440px 652px;
   text-align: center;
   background-position: bottom;
- 
+  
 }
+.button{
+  background-color: rgb(13, 19, 33);
+}
+
 .text-primary{
+  
+
   color:rgb(13, 19, 33);
+  text-align: left;
+  font-size: 16px;
+font-weight: 400;
+
 }
 nav ul{
   display:flex;
@@ -26,6 +37,30 @@ nav ul li{
   font-weight: 800;
 font-size: 20px;
 align:left;
+
+}
+.section-title{
+ 
+  font-size: 32px;
+font-weight: 800;
+text-align: center;
+  }
+  .section-description{
+    font-size: 16px;
+font-weight: 400;
+
+text-align: center;
+}
+.secondary-background{
+  background-color: rgba(13, 19, 33, 0.02);;
+}
+.text-secondary{
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 24px;
+font-weight: 700;
+text-align:left;
+flex-direction: row;
+justify-content: flex-start;;
 
 }
 .btn-primary{
@@ -42,7 +77,8 @@ nav{
 }
 
 div button{
-  background-color:rgb(13, 19, 33);
+ 
+  
   color:rgb(255, 255, 255);
   font-size: 20px;
   font-weight: 600; 
@@ -64,4 +100,24 @@ div img{
   size:240px 240px;
   display:block;
   margin:auto;
+}
+main div button{
+  border: 1px solid rgb(13, 19, 33);
+
+}
+.text-banner{
+  display: flex;
+  justify-content: flex-start;
+}
+main{
+  max-width:946px;
+  margin:0 auto;
+}
+.text-secondbanner{
+  display: flex;
+  justify-content: flex-start;
+}
+.text-thirdbanner{
+  display: flex;
+  justify-content: flex-start;
 }
