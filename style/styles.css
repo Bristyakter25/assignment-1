@@ -108,10 +108,13 @@ main div button{
 .text-banner{
   display: flex;
   justify-content: flex-start;
+
 }
 main{
   max-width:946px;
   margin:0 auto;
+  
+
 }
 .text-secondbanner{
   display: flex;
@@ -120,4 +123,58 @@ main{
 .text-thirdbanner{
   display: flex;
   justify-content: flex-start;
+}
+
+.inspiration{
+
+  position:relative;
+  margin-bottom: 30px;
+}
+.rectangle{
+  position: static;
+  width: 1140px;
+height: 614px;
+display: flex;
+
+}
+.video{
+  border-radius: 16px;
+  }
+  .skill-container{
+    display: flex;
+    gap:24px;
+  }
+  .skill{
+    padding:40px;
+  }
+  .skill2{
+    background-color: rgba(0, 76, 232, 0.05);;
+  }
+  .support-web{
+    
+   background-image: url('/img.jpg/handshake.jpg');
+   background-size: cover;
+   width: 1140px;
+   height: 314px;
+   border: 2px solid;
+   left: 150px;
+right: 150px;
+top: 4752px;
+bottom: 179px;
+   background-repeat: no-repeat;
+}
+.aim{
+  position: static;
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+  color: rgb(255, 255, 255);
+}
+.aim-description{
+  color: rgb(255, 255, 255);
+}
+.button2{
+  
 }
